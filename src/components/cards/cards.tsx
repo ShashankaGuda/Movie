@@ -1,7 +1,7 @@
 import styles from './cards.module.scss';
 import classNames from 'classnames';
 import { Card } from '../card/card';
-import { movieList } from '../../data';
+//import { movieList } from '../../data';
 import { useState, useEffect, useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
 
