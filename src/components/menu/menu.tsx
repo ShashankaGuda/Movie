@@ -1,7 +1,7 @@
 import styles from './menu.module.scss';
 import classNames from 'classnames';
 import { sortBy, genres } from '../../data';
-import { useState } from 'react';
+//import { useState } from 'react';
 import { useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
 export interface MenuProps {
@@ -21,7 +21,7 @@ export const Menu = ({ className }: MenuProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.logo}>
-                <img src="/logo.png" className={styles.logoImg} />
+                <img src="/logo.png" className={styles.logoImg} alt ="logo" />
                 <h6 className={styles.logoText}>Lamaovie</h6>
             </div>
             <span className={styles.queryTitle}>TYPE</span>

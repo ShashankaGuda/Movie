@@ -24,7 +24,7 @@ export const FeaturedCard = ({ className, movie }: FeaturedCardProps) => {
 
     return (
         <div className={classNames(styles.root, className)}>
-            <img src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}`}className={styles.favoriteImg} />
+            <img src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}`}className={styles.favoriteImg} alt="poster" />
             <div className={styles.detail}>
                 <h1 className={styles.favoriteTitle}>{movie?.title}</h1>
                 <span>{movie.vote_average}</span>
@@ -33,7 +33,7 @@ export const FeaturedCard = ({ className, movie }: FeaturedCardProps) => {
                 className={styles.delete}
                 onClick={() => dispatch({ type: 'REMOVE_MOVIE', payload: movie })}
             >
-                <img src="./delete.png" />
+                <img src="./delete.png" alt="delete" />
             </div>
         </div>
     );

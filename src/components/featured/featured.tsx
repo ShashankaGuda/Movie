@@ -1,7 +1,7 @@
 import styles from './featured.module.scss';
 import classNames from 'classnames';
 import { FeaturedCard } from '../featured-card/featured-card';
-import { movieList } from '../../data';
+//import { movieList } from '../../data';
 import { useContext } from "react";
 import { FavoriteContext } from "../../context/FavoriteContext";
 

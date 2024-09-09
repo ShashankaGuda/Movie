@@ -26,7 +26,7 @@ export const Card = ({ className, movie }: CardProps) => {
         <div className={classNames(styles.root, className)}>
             <img
                 className={styles.cardImg}
-                src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+                src={`http://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt =""
             />
             <div className={styles.detail}>
                 <div className={styles.top}>
