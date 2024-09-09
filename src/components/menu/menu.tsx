@@ -22,7 +22,7 @@ export const Menu = ({ className }: MenuProps) => {
         <div className={classNames(styles.root, className)}>
             <div className={styles.logo}>
                 <img src="/logo.png" className={styles.logoImg} alt ="logo" />
-                <h6 className={styles.logoText}>Lamaovie</h6>
+                <h6 className={styles.logoText}>Movie</h6>
             </div>
             <span className={styles.queryTitle}>TYPE</span>
             <hr className={styles.hr} />
